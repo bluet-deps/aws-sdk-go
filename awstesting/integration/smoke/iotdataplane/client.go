@@ -2,10 +2,10 @@
 package iotdataplane
 
 import (
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/iot"
-	"bluet-deps/aws-sdk-go/service/iotdataplane"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/iot"
+	"github.com/bluet-deps/aws-sdk-go/service/iotdataplane"
 	. "github.com/lsegal/gucumber"
 )
 

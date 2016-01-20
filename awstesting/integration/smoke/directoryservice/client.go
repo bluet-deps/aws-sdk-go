@@ -2,8 +2,8 @@
 package directoryservice
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/directoryservice"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/directoryservice"
 	. "github.com/lsegal/gucumber"
 )
 

@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/awsutil"
-	"bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/awsutil"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
 )
 
 var reDomain = regexp.MustCompile(`^[a-z0-9][a-z0-9\.\-]{1,61}[a-z0-9]$`)

@@ -2,8 +2,8 @@
 package configservice
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/configservice"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/configservice"
 	. "github.com/lsegal/gucumber"
 )
 

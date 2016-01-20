@@ -4,8 +4,8 @@
 package directoryserviceiface
 
 import (
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/service/directoryservice"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/service/directoryservice"
 )
 
 // DirectoryServiceAPI is the interface type for directoryservice.DirectoryService.

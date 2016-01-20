@@ -7,11 +7,11 @@ import (
 
 	"bytes"
 	"encoding/xml"
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/awstesting"
-	"bluet-deps/aws-sdk-go/private/protocol/restxml"
-	"bluet-deps/aws-sdk-go/service/cloudfront"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/awstesting"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/restxml"
+	"github.com/bluet-deps/aws-sdk-go/service/cloudfront"
 )
 
 func BenchmarkRESTXMLBuild_Complex_cloudfrontCreateDistribution(b *testing.B) {

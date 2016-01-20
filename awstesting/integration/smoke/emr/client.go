@@ -2,8 +2,8 @@
 package emr
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/emr"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/emr"
 	. "github.com/lsegal/gucumber"
 )
 

@@ -2,7 +2,7 @@ package dynamodbattribute_test
 
 import (
 	"fmt"
-	"bluet-deps/aws-sdk-go/service/dynamodb/dynamodbattribute"
+	"github.com/bluet-deps/aws-sdk-go/service/dynamodb/dynamodbattribute"
 	"reflect"
 )
 

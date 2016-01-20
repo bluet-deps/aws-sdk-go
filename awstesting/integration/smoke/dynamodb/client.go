@@ -2,8 +2,8 @@
 package dynamodb
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/dynamodb"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/dynamodb"
 	. "github.com/lsegal/gucumber"
 )
 

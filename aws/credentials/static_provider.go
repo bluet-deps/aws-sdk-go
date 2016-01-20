@@ -1,7 +1,7 @@
 package credentials
 
 import (
-	"bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
 )
 
 var (

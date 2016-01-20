@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/awstesting/unit"
-	"bluet-deps/aws-sdk-go/service/dynamodb"
-	"bluet-deps/aws-sdk-go/service/route53"
-	"bluet-deps/aws-sdk-go/service/s3"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/unit"
+	"github.com/bluet-deps/aws-sdk-go/service/dynamodb"
+	"github.com/bluet-deps/aws-sdk-go/service/route53"
+	"github.com/bluet-deps/aws-sdk-go/service/s3"
 )
 
 // Use DynamoDB methods for simplicity

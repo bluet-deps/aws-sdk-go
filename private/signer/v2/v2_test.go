@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/credentials"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/awstesting"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/credentials"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/awstesting"
 	"github.com/stretchr/testify/assert"
 )
 

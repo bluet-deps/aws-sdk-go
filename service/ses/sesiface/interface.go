@@ -4,8 +4,8 @@
 package sesiface
 
 import (
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/service/ses"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/service/ses"
 )
 
 // SESAPI is the interface type for ses.SES.

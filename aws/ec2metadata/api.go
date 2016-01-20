@@ -3,7 +3,7 @@ package ec2metadata
 import (
 	"path"
 
-	"bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
 )
 
 // GetMetadata uses the path provided to request

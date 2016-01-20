@@ -3,10 +3,10 @@ package route53_test
 import (
 	"testing"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/awstesting"
-	"bluet-deps/aws-sdk-go/awstesting/unit"
-	"bluet-deps/aws-sdk-go/service/route53"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/awstesting"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/unit"
+	"github.com/bluet-deps/aws-sdk-go/service/route53"
 )
 
 func TestBuildCorrectURI(t *testing.T) {

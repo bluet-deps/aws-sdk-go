@@ -13,9 +13,9 @@ import (
 	"strings"
 	"text/template"
 
-	"bluet-deps/aws-sdk-go/awstesting"
-	"bluet-deps/aws-sdk-go/private/model/api"
-	"bluet-deps/aws-sdk-go/private/util"
+	"github.com/bluet-deps/aws-sdk-go/awstesting"
+	"github.com/bluet-deps/aws-sdk-go/private/model/api"
+	"github.com/bluet-deps/aws-sdk-go/private/util"
 )
 
 type testSuite struct {
@@ -75,10 +75,10 @@ var extraImports = []string{
 	"time",
 	"net/url",
 	"",
-	"bluet-deps/aws-sdk-go/awstesting",
-	"bluet-deps/aws-sdk-go/aws/session",
-	"bluet-deps/aws-sdk-go/private/protocol/xml/xmlutil",
-	"bluet-deps/aws-sdk-go/private/util",
+	"github.com/bluet-deps/aws-sdk-go/awstesting",
+	"github.com/bluet-deps/aws-sdk-go/aws/session",
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/xml/xmlutil",
+	"github.com/bluet-deps/aws-sdk-go/private/util",
 	"github.com/stretchr/testify/assert",
 }
 

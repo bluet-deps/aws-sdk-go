@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/session"
-	"bluet-deps/aws-sdk-go/service/iam"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/session"
+	"github.com/bluet-deps/aws-sdk-go/service/iam"
 )
 
 var _ time.Duration

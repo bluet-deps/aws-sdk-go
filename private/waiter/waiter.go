@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/awserr"
-	"bluet-deps/aws-sdk-go/aws/awsutil"
-	"bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/awsutil"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
 )
 
 // A Config provides a collection of configuration values to setup a generated

@@ -4,8 +4,8 @@ package s3manageriface
 import (
 	"io"
 
-	"bluet-deps/aws-sdk-go/service/s3"
-	"bluet-deps/aws-sdk-go/service/s3/s3manager"
+	"github.com/bluet-deps/aws-sdk-go/service/s3"
+	"github.com/bluet-deps/aws-sdk-go/service/s3/s3manager"
 )
 
 // DownloaderAPI is the interface type for s3manager.Downloader.

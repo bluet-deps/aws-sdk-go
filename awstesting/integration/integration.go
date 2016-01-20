@@ -8,8 +8,8 @@ import (
 	"io"
 	"os"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/session"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/session"
 )
 
 // Session is a shared session for all integration tests to use.

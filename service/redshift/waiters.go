@@ -3,7 +3,7 @@
 package redshift
 
 import (
-	"bluet-deps/aws-sdk-go/private/waiter"
+	"github.com/bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *Redshift) WaitUntilClusterAvailable(input *DescribeClustersInput) error {

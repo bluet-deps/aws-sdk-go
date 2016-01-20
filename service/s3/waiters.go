@@ -3,7 +3,7 @@
 package s3
 
 import (
-	"bluet-deps/aws-sdk-go/private/waiter"
+	"github.com/bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *S3) WaitUntilBucketExists(input *HeadBucketInput) error {

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws/awserr"
-	"bluet-deps/aws-sdk-go/aws/client"
-	"bluet-deps/aws-sdk-go/aws/credentials"
-	"bluet-deps/aws-sdk-go/aws/ec2metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/client"
+	"github.com/bluet-deps/aws-sdk-go/aws/credentials"
+	"github.com/bluet-deps/aws-sdk-go/aws/ec2metadata"
 )
 
 // A EC2RoleProvider retrieves credentials from the EC2 service, and keeps track if

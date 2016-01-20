@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strings"
 
-	"bluet-deps/aws-sdk-go/private/protocol/xml/xmlutil"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/xml/xmlutil"
 )
 
 // GoFmt returns the Go formated string of the input.

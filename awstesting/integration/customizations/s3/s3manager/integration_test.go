@@ -14,12 +14,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/aws/session"
-	"bluet-deps/aws-sdk-go/awstesting/integration"
-	"bluet-deps/aws-sdk-go/service/s3"
-	"bluet-deps/aws-sdk-go/service/s3/s3manager"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/aws/session"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration"
+	"github.com/bluet-deps/aws-sdk-go/service/s3"
+	"github.com/bluet-deps/aws-sdk-go/service/s3/s3manager"
 )
 
 var integBuf12MB = make([]byte, 1024*1024*12)

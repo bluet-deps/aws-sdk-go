@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"bluet-deps/aws-sdk-go/aws/credentials"
+	"github.com/bluet-deps/aws-sdk-go/aws/credentials"
 )
 
 var testCredentials = credentials.NewStaticCredentials("AKID", "SECRET", "SESSION")

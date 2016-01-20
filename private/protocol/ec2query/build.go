@@ -6,9 +6,9 @@ package ec2query
 import (
 	"net/url"
 
-	"bluet-deps/aws-sdk-go/aws/awserr"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/private/protocol/query/queryutil"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/query/queryutil"
 )
 
 // Build builds a request for the EC2 protocol.

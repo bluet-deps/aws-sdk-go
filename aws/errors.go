@@ -1,6 +1,6 @@
 package aws
 
-import "bluet-deps/aws-sdk-go/aws/awserr"
+import "github.com/bluet-deps/aws-sdk-go/aws/awserr"
 
 var (
 	// ErrMissingRegion is an error that is returned if region configuration is

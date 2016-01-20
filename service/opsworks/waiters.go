@@ -3,7 +3,7 @@
 package opsworks
 
 import (
-	"bluet-deps/aws-sdk-go/private/waiter"
+	"github.com/bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *OpsWorks) WaitUntilAppExists(input *DescribeAppsInput) error {

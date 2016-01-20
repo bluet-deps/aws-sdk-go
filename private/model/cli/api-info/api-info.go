@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"bluet-deps/aws-sdk-go/private/model/api"
+	"github.com/bluet-deps/aws-sdk-go/private/model/api"
 )
 
 func main() {

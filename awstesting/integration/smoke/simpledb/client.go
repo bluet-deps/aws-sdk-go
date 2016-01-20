@@ -2,8 +2,8 @@
 package simpledb
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/simpledb"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/simpledb"
 	. "github.com/lsegal/gucumber"
 )
 

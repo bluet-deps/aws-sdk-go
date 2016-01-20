@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"bluet-deps/aws-sdk-go/aws/awsutil"
+	"github.com/bluet-deps/aws-sdk-go/aws/awsutil"
 	"github.com/stretchr/testify/assert"
 )
 

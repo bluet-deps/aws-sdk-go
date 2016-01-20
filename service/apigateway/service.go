@@ -3,12 +3,12 @@
 package apigateway
 
 import (
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/client"
-	"bluet-deps/aws-sdk-go/aws/client/metadata"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/private/protocol/restjson"
-	"bluet-deps/aws-sdk-go/private/signer/v4"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/client"
+	"github.com/bluet-deps/aws-sdk-go/aws/client/metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/restjson"
+	"github.com/bluet-deps/aws-sdk-go/private/signer/v4"
 )
 
 // Amazon API Gateway helps developers deliver robust, secure and scalable mobile

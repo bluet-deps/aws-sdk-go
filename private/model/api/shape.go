@@ -9,7 +9,7 @@ import (
 	"strings"
 	"text/template"
 
-	"bluet-deps/aws-sdk-go/private/util"
+	"github.com/bluet-deps/aws-sdk-go/private/util"
 )
 
 // A ShapeRef defines the usage of a shape within the API.

@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/client"
-	"bluet-deps/aws-sdk-go/aws/credentials"
-	"bluet-deps/aws-sdk-go/service/sts"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/client"
+	"github.com/bluet-deps/aws-sdk-go/aws/credentials"
+	"github.com/bluet-deps/aws-sdk-go/service/sts"
 )
 
 // AssumeRoler represents the minimal subset of the STS client API used by this provider.

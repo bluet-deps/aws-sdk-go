@@ -1,10 +1,10 @@
 package awstesting
 
 import (
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/client"
-	"bluet-deps/aws-sdk-go/aws/client/metadata"
-	"bluet-deps/aws-sdk-go/aws/defaults"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/client"
+	"github.com/bluet-deps/aws-sdk-go/aws/client/metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws/defaults"
 )
 
 // NewClient creates and initializes a generic service client for testing.

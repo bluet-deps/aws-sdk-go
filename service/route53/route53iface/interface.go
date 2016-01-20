@@ -4,8 +4,8 @@
 package route53iface
 
 import (
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/service/route53"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/service/route53"
 )
 
 // Route53API is the interface type for route53.Route53.

@@ -5,10 +5,10 @@ import (
 	"reflect"
 	"testing"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/awserr"
-	"bluet-deps/aws-sdk-go/aws/awsutil"
-	"bluet-deps/aws-sdk-go/service/dynamodb"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/awsutil"
+	"github.com/bluet-deps/aws-sdk-go/service/dynamodb"
 )
 
 type mySimpleStruct struct {

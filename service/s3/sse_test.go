@@ -3,10 +3,10 @@ package s3_test
 import (
 	"testing"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/awserr"
-	"bluet-deps/aws-sdk-go/awstesting/unit"
-	"bluet-deps/aws-sdk-go/service/s3"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/unit"
+	"github.com/bluet-deps/aws-sdk-go/service/s3"
 	"github.com/stretchr/testify/assert"
 )
 

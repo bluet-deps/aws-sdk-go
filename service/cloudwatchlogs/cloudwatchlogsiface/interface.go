@@ -4,8 +4,8 @@
 package cloudwatchlogsiface
 
 import (
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/service/cloudwatchlogs"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/service/cloudwatchlogs"
 )
 
 // CloudWatchLogsAPI is the interface type for cloudwatchlogs.CloudWatchLogs.

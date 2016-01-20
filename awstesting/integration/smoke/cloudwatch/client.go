@@ -2,8 +2,8 @@
 package cloudwatch
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/cloudwatch"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/cloudwatch"
 	. "github.com/lsegal/gucumber"
 )
 

@@ -5,8 +5,8 @@ import (
 	"encoding/base64"
 	"io"
 
-	"bluet-deps/aws-sdk-go/aws/awserr"
-	"bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
 )
 
 // contentMD5 computes and sets the HTTP Content-MD5 header for requests that

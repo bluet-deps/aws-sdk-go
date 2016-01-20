@@ -2,8 +2,8 @@
 package machinelearning
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/machinelearning"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/machinelearning"
 	. "github.com/lsegal/gucumber"
 )
 

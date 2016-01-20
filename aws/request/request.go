@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/client/metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/client/metadata"
 )
 
 // A Request is the service request to be made.

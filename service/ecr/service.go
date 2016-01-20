@@ -3,12 +3,12 @@
 package ecr
 
 import (
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/client"
-	"bluet-deps/aws-sdk-go/aws/client/metadata"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/private/protocol/jsonrpc"
-	"bluet-deps/aws-sdk-go/private/signer/v4"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/client"
+	"github.com/bluet-deps/aws-sdk-go/aws/client/metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/bluet-deps/aws-sdk-go/private/signer/v4"
 )
 
 // Amazon EC2 Container Registry (Amazon ECR) is a managed AWS Docker registry

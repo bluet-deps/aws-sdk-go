@@ -4,8 +4,8 @@
 package firehoseiface
 
 import (
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/service/firehose"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/service/firehose"
 )
 
 // FirehoseAPI is the interface type for firehose.Firehose.

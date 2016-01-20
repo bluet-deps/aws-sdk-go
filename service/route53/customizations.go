@@ -3,8 +3,8 @@ package route53
 import (
 	"regexp"
 
-	"bluet-deps/aws-sdk-go/aws/client"
-	"bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/aws/client"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
 )
 
 func init() {

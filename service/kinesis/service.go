@@ -3,12 +3,12 @@
 package kinesis
 
 import (
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/client"
-	"bluet-deps/aws-sdk-go/aws/client/metadata"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/private/protocol/jsonrpc"
-	"bluet-deps/aws-sdk-go/private/signer/v4"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/client"
+	"github.com/bluet-deps/aws-sdk-go/aws/client/metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/bluet-deps/aws-sdk-go/private/signer/v4"
 )
 
 // Amazon Kinesis is a managed service that scales elastically for real time

@@ -3,7 +3,7 @@ package credentials
 import (
 	"testing"
 
-	"bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
 	"github.com/stretchr/testify/assert"
 )
 

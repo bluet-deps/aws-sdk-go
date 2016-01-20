@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"net/http/httputil"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/client/metadata"
-	"bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/client/metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
 )
 
 // A Config provides configuration to a service client instance.

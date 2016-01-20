@@ -4,8 +4,8 @@
 package kinesisiface
 
 import (
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/service/kinesis"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/service/kinesis"
 )
 
 // KinesisAPI is the interface type for kinesis.Kinesis.

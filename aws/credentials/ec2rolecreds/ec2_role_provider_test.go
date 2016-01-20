@@ -9,11 +9,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/awserr"
-	"bluet-deps/aws-sdk-go/aws/credentials/ec2rolecreds"
-	"bluet-deps/aws-sdk-go/aws/ec2metadata"
-	"bluet-deps/aws-sdk-go/aws/session"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/credentials/ec2rolecreds"
+	"github.com/bluet-deps/aws-sdk-go/aws/ec2metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws/session"
 )
 
 const credsRespTmpl = `{

@@ -3,7 +3,7 @@
 package glacier
 
 import (
-	"bluet-deps/aws-sdk-go/private/waiter"
+	"github.com/bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *Glacier) WaitUntilVaultExists(input *DescribeVaultInput) error {

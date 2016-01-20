@@ -3,7 +3,7 @@ package awsutil_test
 import (
 	"testing"
 
-	"bluet-deps/aws-sdk-go/aws/awsutil"
+	"github.com/bluet-deps/aws-sdk-go/aws/awsutil"
 	"github.com/stretchr/testify/assert"
 )
 

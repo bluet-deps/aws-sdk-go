@@ -2,8 +2,8 @@
 package storagegateway
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/storagegateway"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/storagegateway"
 	. "github.com/lsegal/gucumber"
 )
 

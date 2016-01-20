@@ -2,8 +2,8 @@
 package codecommit
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/codecommit"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/codecommit"
 	. "github.com/lsegal/gucumber"
 )
 

@@ -12,13 +12,13 @@ import (
 	"os"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/corehandlers"
-	"bluet-deps/aws-sdk-go/aws/credentials"
-	"bluet-deps/aws-sdk-go/aws/credentials/ec2rolecreds"
-	"bluet-deps/aws-sdk-go/aws/ec2metadata"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/private/endpoints"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/corehandlers"
+	"github.com/bluet-deps/aws-sdk-go/aws/credentials"
+	"github.com/bluet-deps/aws-sdk-go/aws/credentials/ec2rolecreds"
+	"github.com/bluet-deps/aws-sdk-go/aws/ec2metadata"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/private/endpoints"
 )
 
 // A Defaults provides a collection of default values for SDK clients.

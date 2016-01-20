@@ -4,8 +4,8 @@
 package snsiface
 
 import (
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/service/sns"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/service/sns"
 )
 
 // SNSAPI is the interface type for sns.SNS.

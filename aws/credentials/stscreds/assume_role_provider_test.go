@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/service/sts"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/service/sts"
 	"github.com/stretchr/testify/assert"
 )
 

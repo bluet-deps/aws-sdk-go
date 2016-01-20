@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"bluet-deps/aws-sdk-go/private/protocol/json/jsonutil"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/json/jsonutil"
 	"github.com/stretchr/testify/assert"
 )
 

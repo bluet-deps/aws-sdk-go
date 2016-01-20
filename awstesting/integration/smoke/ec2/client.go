@@ -2,8 +2,8 @@
 package ec2
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/ec2"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/ec2"
 	. "github.com/lsegal/gucumber"
 )
 

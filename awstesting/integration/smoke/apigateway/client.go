@@ -2,8 +2,8 @@
 package apigateway
 
 import (
-	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
-	"bluet-deps/aws-sdk-go/service/apigateway"
+	"github.com/bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"github.com/bluet-deps/aws-sdk-go/service/apigateway"
 	. "github.com/lsegal/gucumber"
 )
 

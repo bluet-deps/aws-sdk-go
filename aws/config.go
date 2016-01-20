@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"bluet-deps/aws-sdk-go/aws/credentials"
+	"github.com/bluet-deps/aws-sdk-go/aws/credentials"
 )
 
 // UseServiceDefaultRetries instructs the config to use the service's own default

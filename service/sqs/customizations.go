@@ -1,6 +1,6 @@
 package sqs
 
-import "bluet-deps/aws-sdk-go/aws/request"
+import "github.com/bluet-deps/aws-sdk-go/aws/request"
 
 func init() {
 	initRequest = func(r *request.Request) {

@@ -4,8 +4,8 @@
 package route53domainsiface
 
 import (
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/service/route53domains"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/service/route53domains"
 )
 
 // Route53DomainsAPI is the interface type for route53domains.Route53Domains.

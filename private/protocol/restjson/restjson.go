@@ -10,10 +10,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"bluet-deps/aws-sdk-go/aws/awserr"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/private/protocol/jsonrpc"
-	"bluet-deps/aws-sdk-go/private/protocol/rest"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/bluet-deps/aws-sdk-go/private/protocol/rest"
 )
 
 // Build builds a request for the REST JSON protocol.

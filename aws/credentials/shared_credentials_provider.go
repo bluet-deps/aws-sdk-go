@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-ini/ini"
 
-	"bluet-deps/aws-sdk-go/aws/awserr"
+	"github.com/bluet-deps/aws-sdk-go/aws/awserr"
 )
 
 var (

@@ -9,12 +9,12 @@
 package session
 
 import (
-	"bluet-deps/aws-sdk-go/aws"
-	"bluet-deps/aws-sdk-go/aws/client"
-	"bluet-deps/aws-sdk-go/aws/corehandlers"
-	"bluet-deps/aws-sdk-go/aws/defaults"
-	"bluet-deps/aws-sdk-go/aws/request"
-	"bluet-deps/aws-sdk-go/private/endpoints"
+	"github.com/bluet-deps/aws-sdk-go/aws"
+	"github.com/bluet-deps/aws-sdk-go/aws/client"
+	"github.com/bluet-deps/aws-sdk-go/aws/corehandlers"
+	"github.com/bluet-deps/aws-sdk-go/aws/defaults"
+	"github.com/bluet-deps/aws-sdk-go/aws/request"
+	"github.com/bluet-deps/aws-sdk-go/private/endpoints"
 )
 
 // A Session provides a central location to create service clients from and

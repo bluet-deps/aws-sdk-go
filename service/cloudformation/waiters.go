@@ -3,7 +3,7 @@
 package cloudformation
 
 import (
-	"bluet-deps/aws-sdk-go/private/waiter"
+	"github.com/bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *CloudFormation) WaitUntilStackCreateComplete(input *DescribeStacksInput) error {
