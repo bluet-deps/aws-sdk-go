@@ -3,7 +3,7 @@
 package ses
 
 import (
-	"github.com/aws/aws-sdk-go/private/waiter"
+	"bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *SES) WaitUntilIdentityExists(input *GetIdentityVerificationAttributesInput) error {

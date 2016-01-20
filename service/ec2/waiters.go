@@ -3,7 +3,7 @@
 package ec2
 
 import (
-	"github.com/aws/aws-sdk-go/private/waiter"
+	"bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *EC2) WaitUntilBundleTaskComplete(input *DescribeBundleTasksInput) error {

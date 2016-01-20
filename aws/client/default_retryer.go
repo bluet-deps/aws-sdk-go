@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/aws/request"
 )
 
 // DefaultRetryer implements basic retry logic using exponential backoff for

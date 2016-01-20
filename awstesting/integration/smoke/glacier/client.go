@@ -2,8 +2,8 @@
 package glacier
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/glacier"
+	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"bluet-deps/aws-sdk-go/service/glacier"
 	. "github.com/lsegal/gucumber"
 )
 

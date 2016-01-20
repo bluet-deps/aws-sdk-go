@@ -3,12 +3,12 @@
 package sts
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol/query"
-	"github.com/aws/aws-sdk-go/private/signer/v4"
+	"bluet-deps/aws-sdk-go/aws"
+	"bluet-deps/aws-sdk-go/aws/client"
+	"bluet-deps/aws-sdk-go/aws/client/metadata"
+	"bluet-deps/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/private/protocol/query"
+	"bluet-deps/aws-sdk-go/private/signer/v4"
 )
 
 // The AWS Security Token Service (STS) is a web service that enables you to

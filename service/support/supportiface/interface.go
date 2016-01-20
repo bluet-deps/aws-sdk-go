@@ -4,8 +4,8 @@
 package supportiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/support"
+	"bluet-deps/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/service/support"
 )
 
 // SupportAPI is the interface type for support.Support.

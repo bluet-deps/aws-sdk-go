@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/aws/awserr"
+	"bluet-deps/aws-sdk-go/aws/request"
 )
 
 type xmlErrorDetail struct {

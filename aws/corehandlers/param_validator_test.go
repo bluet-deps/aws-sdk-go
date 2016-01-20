@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/aws"
+	"bluet-deps/aws-sdk-go/aws/awserr"
+	"bluet-deps/aws-sdk-go/aws/client"
+	"bluet-deps/aws-sdk-go/aws/client/metadata"
+	"bluet-deps/aws-sdk-go/aws/corehandlers"
+	"bluet-deps/aws-sdk-go/aws/request"
 	"github.com/stretchr/testify/require"
 )
 

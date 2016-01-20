@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/private/model/api"
-	"github.com/aws/aws-sdk-go/private/util"
+	"bluet-deps/aws-sdk-go/private/model/api"
+	"bluet-deps/aws-sdk-go/private/util"
 )
 
 // A paramFiller provides string formatting for a shape and its types.

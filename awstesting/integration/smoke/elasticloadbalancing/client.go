@@ -2,8 +2,8 @@
 package elasticloadbalancing
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/elb"
+	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"bluet-deps/aws-sdk-go/service/elb"
 	. "github.com/lsegal/gucumber"
 )
 

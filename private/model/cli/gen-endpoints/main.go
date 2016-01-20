@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/aws/aws-sdk-go/private/model"
+	"bluet-deps/aws-sdk-go/private/model"
 )
 
 // Generates the endpoints from json description

@@ -8,12 +8,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting"
-	"github.com/aws/aws-sdk-go/private/waiter"
+	"bluet-deps/aws-sdk-go/aws"
+	"bluet-deps/aws-sdk-go/aws/awserr"
+	"bluet-deps/aws-sdk-go/aws/client"
+	"bluet-deps/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/awstesting"
+	"bluet-deps/aws-sdk-go/private/waiter"
 )
 
 type mockClient struct {

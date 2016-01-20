@@ -2,8 +2,8 @@
 package cloudhsm
 
 import (
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/cloudhsm"
+	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"bluet-deps/aws-sdk-go/service/cloudhsm"
 	. "github.com/lsegal/gucumber"
 )
 

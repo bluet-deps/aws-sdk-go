@@ -3,7 +3,7 @@
 package elb
 
 import (
-	"github.com/aws/aws-sdk-go/private/waiter"
+	"bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *ELB) WaitUntilAnyInstanceInService(input *DescribeInstanceHealthInput) error {

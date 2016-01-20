@@ -4,8 +4,8 @@
 package swfiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/swf"
+	"bluet-deps/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/service/swf"
 )
 
 // SWFAPI is the interface type for swf.SWF.

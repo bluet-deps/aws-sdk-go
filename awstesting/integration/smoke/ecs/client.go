@@ -2,9 +2,9 @@
 package ecs
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/integration/smoke"
-	"github.com/aws/aws-sdk-go/service/ecs"
+	"bluet-deps/aws-sdk-go/aws"
+	"bluet-deps/aws-sdk-go/awstesting/integration/smoke"
+	"bluet-deps/aws-sdk-go/service/ecs"
 	. "github.com/lsegal/gucumber"
 )
 

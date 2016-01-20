@@ -4,8 +4,8 @@
 package elasticsearchserviceiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/elasticsearchservice"
+	"bluet-deps/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/service/elasticsearchservice"
 )
 
 // ElasticsearchServiceAPI is the interface type for elasticsearchservice.ElasticsearchService.

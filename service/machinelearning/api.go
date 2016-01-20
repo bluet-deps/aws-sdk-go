@@ -6,8 +6,8 @@ package machinelearning
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/aws/awsutil"
+	"bluet-deps/aws-sdk-go/aws/request"
 )
 
 const opCreateBatchPrediction = "CreateBatchPrediction"

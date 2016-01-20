@@ -3,7 +3,7 @@
 package ecs
 
 import (
-	"github.com/aws/aws-sdk-go/private/waiter"
+	"bluet-deps/aws-sdk-go/private/waiter"
 )
 
 func (c *ECS) WaitUntilServicesInactive(input *DescribeServicesInput) error {

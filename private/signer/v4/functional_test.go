@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"bluet-deps/aws-sdk-go/aws"
+	"bluet-deps/aws-sdk-go/awstesting/unit"
+	"bluet-deps/aws-sdk-go/service/s3"
 )
 
 func TestPresignHandler(t *testing.T) {

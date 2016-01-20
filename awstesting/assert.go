@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/private/model/api"
+	"bluet-deps/aws-sdk-go/private/model/api"
 	"github.com/stretchr/testify/assert"
 )
 

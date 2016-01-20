@@ -4,8 +4,8 @@
 package workspacesiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/workspaces"
+	"bluet-deps/aws-sdk-go/aws/request"
+	"bluet-deps/aws-sdk-go/service/workspaces"
 )
 
 // WorkSpacesAPI is the interface type for workspaces.WorkSpaces.
